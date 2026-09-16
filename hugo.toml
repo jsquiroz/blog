@@ -1,0 +1,22 @@
+baseURL = 'https://equiroz.mx/'
+title = 'equiroz'
+theme = 'PaperMod'
+
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
+
+[languages]
+  [languages.es]
+    label = 'Español'
+    locale = 'es-mx'
+    weight = 1
+
+  [languages.en]
+    label = 'English'
+    locale = 'en-us'
+    weight = 2
